@@ -31,7 +31,7 @@ def configure_ngrok():
 def update_soul_txt(public_url):
     with open("anony.txt", "w") as file:
         file.write(public_url)
-    print(f"New ngrok link saved in MANUDDOSBO.txt")
+    print(f"New ngrok link saved in anony.txt")
 
 def update_vps_soul_txt(public_url):
     vps_ip = "93.127.213.184"
